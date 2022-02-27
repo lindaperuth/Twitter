@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+}
+
+/*body tag starts here...........................*/
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-image: url(twt_bird.png);
+        background-color: skyblue;
+        background-repeat: no-repeat;
+        background-size: 900px;
+    }
+
+/*body tag ends here...........................*/
+
+/*left section starts here...........................*/
+.left-div{
+    position: absolute;
+    top: 350px;
+    left: 300px;   
+}
+
+.left-div p{
+    font-family: arial;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.left-div i{
+    font-size: 20px;
+}
+/*left section ends here...........................*/
+
+/*Right section starts here...........................*/
+.right-div{
+    background-color: White;
+    width: 700px;
+    position: fixed;
+    right: 0px;
+    height: 100%;
+}
+   
+ form{
+position: absolute;
+left: 50px;
+top: 30px;
+}
+
+input{
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #eeeeee;
+    outline: none;
+    border:none;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+.right-div .txt1{
+position: absolute;
+color: black;
+left: 25px;
+top: 0;
+}
+
+
+.right-div .txt2{
+    position: absolute;
+    color: black;
+    left: 220px;
+top: 0;
+    }
+
+.btn_top_login{
+padding: 10px;
+border-radius: 20px;
+width: 80px;
+border-color:#1589FF;
+color:#1589FF;
+background-color: white;
+}
+
+.right-div a {
+    position: absolute;
+    right: 100px;
+    top: 50px;
+}
+
+/*Right section ends here...........................*/
+
+
+/*Middle section starts here...........................*/
+.middle-section {
+    position:relative;
+    top: 200px;
+    left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(twt_bird.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    position: absolute;
+    padding: 30px;
+}
+.button1{
+    padding: 10px;
+    border-radius: 50px;
+    width:400px;
+    background-color:#1589FF;
+    border-color:#1589FF ;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.button2{
+    padding:10px;
+    border-radius: 70px;
+    width:400px;
+    background-color:white;
+    border-color:#1589FF ;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:#1589FF ;
+}
+
+a{
+    color: #1589FF;
+    left: 250px;
+}
+
+
+/*Middle section ends here...........................*/
+
+/*Bottom section starts here.........................*/
+footer{
+ position: fixed;
+    width: 100%;
+    padding: 20px;
+    bottom: 0;
+    background-color: white; 
+}
+
+ ul.Linda_twitter_nav{
+    list-style-type: none;
+}
+
+ul.Linda_twitter_nav li{
+    float: left;
+}
+
+ul.Linda_twitter_nav li a{
+    display: block;
+    padding: 4px 7px;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: #1589FF;
+}
+
+ul.Linda_twitter_nav a:hover:not(.active){
+    text-decoration: underline;
+}
+
+ul.Linda_twitter_nav .active{
+    font-weight: bold;
+}
+
+ul.Linda_twitter_nav .copyright{
+    padding: 4px 7px;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: #1589FF;
+}
+
+
+
+
+/*Bottom part ends here............*/
